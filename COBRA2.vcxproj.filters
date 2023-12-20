@@ -1,0 +1,484 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;moc;h;def;odl;idl;res;</Extensions>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;moc;h;def;odl;idl;res;</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Common\Audio.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\CAN_common.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SRC\COBRA2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SRC\COBRA2_audio.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SRC\COBRA2_can_data.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SRC\COBRA2_canwindow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SRC\COBRA2_controls.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SRC\COBRA2_driver_motion_tcp_client.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SRC\COBRA2_engine.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SRC\COBRA2_errorswindow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SRC\COBRA2_imager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SRC\COBRA2_imager_tcp_client.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SRC\COBRA2_imitator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SRC\COBRA2_imitator_tcp_client.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SRC\COBRA2_instructor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SRC\COBRA2_instructor_tcp_client.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SRC\COBRA2_mainwindow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SRC\COBRA2_manager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SRC\COBRA2_motionsystem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SRC\COBRA2_move.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SRC\COBRA2_onboard.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SRC\COBRA2_script.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SRC\COBRA2_script_tcp_client.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SRC\COBRA2_server.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SRC\COBRA2_serviceerrors.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SRC\COBRA2_transmission.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\Controls.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DPDLL\DPDLL_lib.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\DriverMotion_TCP_client.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\FCC.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\FCC_TCP_client.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\GunnerMotion_TCP_client.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\Imager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\Imager_TCP_client.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\Imitator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\Imitator_TCP_client.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\Instructor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\Instructor_TCP_client.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\Logging.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\Joystick\LogiControllerInput.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\Joystick\LogiControllerInputUtils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\Joystick\LogiGameController.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\Joystick\LogiGameControllerDI.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\MotionSystem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DPDLL\MotionSystemForm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DPDLL\MotionSystem_DPDLL.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\Replay.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\Script.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\Script_TCP_client.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\Server.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\ServiceErrors.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\SettingsFile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\SystemTray.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\TCP_client.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\TargetsManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\UDP_OU.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SRC\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\torquecurve.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\PCAN.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\MOXA.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\CAN_Interface.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="Common\Audio.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="Common\CAN_common.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="SRC\COBRA2.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="SRC\COBRA2_audio.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="SRC\COBRA2_can_data.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="SRC\COBRA2_canwindow.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="SRC\COBRA2_controls.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="SRC\COBRA2_driver_motion_tcp_client.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="SRC\COBRA2_engine.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="SRC\COBRA2_errorswindow.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="SRC\COBRA2_imager.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="SRC\COBRA2_imager_tcp_client.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="SRC\COBRA2_imitator.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="SRC\COBRA2_imitator_tcp_client.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="SRC\COBRA2_instructor.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="SRC\COBRA2_instructor_tcp_client.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="SRC\COBRA2_mainwindow.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="SRC\COBRA2_manager.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="SRC\COBRA2_motionsystem.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="SRC\COBRA2_move.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="SRC\COBRA2_onboard.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="SRC\COBRA2_script.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="SRC\COBRA2_script_tcp_client.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="SRC\COBRA2_server.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="SRC\COBRA2_serviceerrors.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="SRC\COBRA2_transmission.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <ClInclude Include="SRC\COBRA2h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <QtMoc Include="Common\Controls.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <ClInclude Include="DPDLL\DPDLL_lib.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <QtMoc Include="Common\DriverMotion_TCP_client.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="Common\FCC.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="Common\FCC_TCP_client.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="Common\GunnerMotion_TCP_client.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="Common\Imager.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="Common\Imager_TCP_client.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="Common\Imitator.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="Common\Imitator_TCP_client.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="Common\Instructor.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="Common\Instructor_TCP_client.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="Common\Logging.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <ClInclude Include="Common\Joystick\LogiControllerInput.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Joystick\LogiControllerInputGlobals.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Joystick\LogiControllerInputUtils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Joystick\LogiGameController.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Joystick\LogiGameControllerDI.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\MOXA\MXCANFUNC.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\MOXA\MXERROR.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <QtMoc Include="Common\MotionSystem.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="DPDLL\MotionSystemForm.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="DPDLL\MotionSystem_DPDLL.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="Common\Replay.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="Common\Script.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="Common\Script_TCP_client.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="Common\Server.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="Common\ServiceErrors.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="Common\SettingsFile.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="Common\SystemTray.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="Common\TCP_client.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="Common\TargetsManager.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="Common\UDP_OU.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <ClInclude Include="Common\common_dictionary.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\queuetimer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\torquecurve.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="debug\moc_predefs.h.cbt">
+      <Filter>Generated Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="release\moc_predefs.h.cbt">
+      <Filter>Generated Files</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <QtUic Include="SRC\COBRA2_canwindow.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="SRC\COBRA2_errorswindow.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="SRC\COBRA2_mainwindow.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="DPDLL\MotionSystemForm.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+  </ItemGroup>
+  <ItemGroup>
+    <QtRcc Include="SRC\COBRA2.qrc">
+      <Filter>Resource Files</Filter>
+    </QtRcc>
+    <None Include="resource\COBRA2_torque.csv">
+      <Filter>Resource Files</Filter>
+    </None>
+    <QtRcc Include="Common\Common.qrc">
+      <Filter>Resource Files</Filter>
+    </QtRcc>
+    <None Include="Common\resource\empty.wav">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Common\resource\logo-aes.png">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include=".\Server_resource.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Common\CAN_Creator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\CAN_Interface.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\MOXA.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\PCAN.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\PCAN\PCANBasic.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

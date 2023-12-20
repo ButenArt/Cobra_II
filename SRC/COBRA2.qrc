@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/">
+        <file>../resource/COBRA2_torque.csv</file>
+    </qresource>
+</RCC>
