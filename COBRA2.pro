@@ -28,3 +28,5 @@ include(Common/Common.pri)
 include(DPDLL/DPDLL.pri)
 
 win32:RC_ICONS = $$PWD/Common/resource/logo-aes.ico
+
+win32: LIBS += -lCanApi4

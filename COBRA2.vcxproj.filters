@@ -45,9 +45,22 @@
       <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
       <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
     </Filter>
+    <Filter Include="Distribution Files">
+      <UniqueIdentifier>{B83CAF91-C7BF-462F-B76C-EA11631F866C}</UniqueIdentifier>
+      <Extensions>*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Distribution Files">
+      <UniqueIdentifier>{B83CAF91-C7BF-462F-B76C-EA11631F866C}</UniqueIdentifier>
+      <Extensions>*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Common\Audio.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\CAN_Interface.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Common\CAN_common.cpp">
@@ -176,6 +189,9 @@
     <ClCompile Include="Common\Joystick\LogiGameControllerDI.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Common\MOXA.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
     <ClCompile Include="Common\MotionSystem.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -183,6 +199,9 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="DPDLL\MotionSystem_DPDLL.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\PCAN.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Common\Replay.cpp">
@@ -218,16 +237,10 @@
     <ClCompile Include="SRC\main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Common\manager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
     <ClCompile Include="Common\torquecurve.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Common\PCAN.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Common\MOXA.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Common\CAN_Interface.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -235,6 +248,12 @@
     <QtMoc Include="Common\Audio.h">
       <Filter>Header Files</Filter>
     </QtMoc>
+    <ClInclude Include="Common\CAN_Creator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\CAN_Interface.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
     <QtMoc Include="Common\CAN_common.h">
       <Filter>Header Files</Filter>
     </QtMoc>
@@ -313,6 +332,9 @@
     <ClInclude Include="SRC\COBRA2h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="Common\PCAN\CanApi4.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
     <QtMoc Include="Common\Controls.h">
       <Filter>Header Files</Filter>
     </QtMoc>
@@ -367,6 +389,9 @@
     <ClInclude Include="Common\Joystick\LogiGameControllerDI.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="Common\MOXA.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
     <ClInclude Include="Common\MOXA\MXCANFUNC.h">
       <Filter>Header Files</Filter>
     </ClInclude>
@@ -382,6 +407,15 @@
     <QtMoc Include="DPDLL\MotionSystem_DPDLL.h">
       <Filter>Header Files</Filter>
     </QtMoc>
+    <ClInclude Include="Common\PCAN.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\PCAN\PCANBasic.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Printer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
     <QtMoc Include="Common\Replay.h">
       <Filter>Header Files</Filter>
     </QtMoc>
@@ -413,6 +447,12 @@
       <Filter>Header Files</Filter>
     </QtMoc>
     <ClInclude Include="Common\common_dictionary.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\log_duration.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\manager.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Common\queuetimer.h">
@@ -462,23 +502,14 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <ResourceCompile Include=".\Server_resource.rc" />
+    <None Include="D:\REPOS\Cobra_MEG\Common\PCAN\CanApi4.lib">
+      <Filter>Distribution Files</Filter>
+    </None>
+    <None Include="D:\REPOS\Cobra_MEG\Common\PCAN\PCANBasic.lib">
+      <Filter>Distribution Files</Filter>
+    </None>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Common\CAN_Creator.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Common\CAN_Interface.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Common\MOXA.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Common\PCAN.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Common\PCAN\PCANBasic.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
+    <ResourceCompile Include="D:\REPOS\Cobra_MEG\Server_resource.rc" />
   </ItemGroup>
 </Project>

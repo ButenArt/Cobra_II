@@ -24,10 +24,10 @@
 
 constexpr auto N_PARAM_IN = 64;
 constexpr auto N_PARAM_OUT = 64;
-constexpr auto N_PARAM_MAB = 4;
-constexpr auto N_PARAM_VID = 10;
-constexpr auto N_PARAM_POT = 1;
-constexpr auto N_PARAM_ENUM = 1;
+constexpr auto N_PARAM_MAB = 8;
+constexpr auto N_PARAM_VID = 16;
+constexpr auto N_PARAM_POT = 8;
+constexpr auto N_PARAM_ENUM = 8;
 
 class T_COBRA2_controls : public T_Controls
 {

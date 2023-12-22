@@ -1,6 +1,10 @@
 SOURCES += $$PWD/CAN_common.cpp \
+    $$PWD/CAN_Interface.cpp \
     $$PWD/Logging.cpp \
+    $$PWD/MOXA.cpp \
+    $$PWD/PCAN.cpp \
     $$PWD/SettingsFile.cpp \
+    $$PWD/manager.cpp \
     $$PWD/torquecurve.cpp \
     $$PWD/Replay.cpp \
     $$PWD/UDP_OU.cpp \
@@ -26,10 +30,17 @@ SOURCES += $$PWD/CAN_common.cpp \
     $$PWD/MotionSystem.cpp
 
 HEADERS  += \
+    $$PWD/CAN_Creator.h \
+    $$PWD/CAN_Interface.h \
     $$PWD/CAN_common.h \
+    $$PWD/MOXA.h \
+    $$PWD/PCAN.h \
+    $$PWD/Printer.h \
     $$PWD/common_dictionary.h \
     $$PWD/Logging.h \
     $$PWD/SettingsFile.h \
+    $$PWD/log_duration.h \
+    $$PWD/manager.h \
     $$PWD/torquecurve.h \
     $$PWD/Replay.h \
     $$PWD/UDP_OU.h \
@@ -56,9 +67,12 @@ HEADERS  += \
     $$PWD/queuetimer.h
 	
 RESOURCES += \
+    $$PWD/Common.qrc \
     $$PWD/Common.qrc
 
-DISTFILES +=
+DISTFILES += \
+    $$PWD/PCAN/CanApi4.lib \
+    $$PWD/PCAN/PCANBasic.lib
 
 include(MOXA/MOXA.pri)
 include(PCAN/PCAN.pri)
